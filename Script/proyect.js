@@ -13,6 +13,8 @@ fetch('https://ipstack1.p.rapidapi.com/api.ipstack.com', options)
 
 const form = $document.querySelector('#form');
 const $input = document.querySelector('#input')
+const $submit = document.querySelector('#submit')
+
 
 $form.addEventListener('submit', async (event) => {
   event.preventDefault()
